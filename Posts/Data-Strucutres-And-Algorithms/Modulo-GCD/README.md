@@ -126,8 +126,8 @@ Một cách tương tự, ta cũng có thể chứng minh được **Với ba s�
 Từ hai nhận xét trên, ta rút ra được:
 $$
 \begin{cases}
-\gcd(a, b) \le \gcd(b, c) \\
-\gcd(b, c) \le \gcd(a, b)
+\gcd(a, b) \le \gcd(b, c) \; (b, c \mid \gcd(a, b)) \\
+\gcd(b, c) \le \gcd(a, b) \; (a, b \mid \gcd(b, c))
 \end{cases}
 \Rightarrow \gcd(a, b) = \gcd(b, c) \Leftrightarrow \gcd(a, b) = \gcd(b, a - b)
 $$
@@ -136,7 +136,7 @@ Ta đã chứng minh được $\gcd(a, b) = \gcd(b, a - b)$. Song, thứ tự ph
 
 $$\gcd(a, b) = \gcd(a - b, b) = \gcd(a - 2b, b) = \gcd(a - 3b, b) = \cdots = \gcd(a - qb, b)$$
 
-Mặt khác: $a = qb + r$ với $r = a \mod b$. Nên: $a - qb = r \Rightarrow \gcd(a, b) = \gcd(r, b) = \gcd(b, r)$.
+Mặt khác: $a = qb + r$ với $r = a \% b$. Nên: $a - qb = r \Rightarrow \gcd(a, b) = \gcd(r, b) = \gcd(b, r)$.
 
 Với chứng minh trên, ta có có một đoạn code mới như sau:
 
@@ -156,6 +156,7 @@ int gcdEuclid(int a, int b) {
 def gcdEuclid(a, b):
     if b == 0:
         return a
+
     return gcdEuclid(b, a % b)
 ```
 
@@ -224,5 +225,5 @@ def lcm(a, b):
 ## Bài tập tham khảo
 
 - [Array Sum - Tổng dãy](/Posts/Problems-And-Solutions/Modulo-GCD/Array-Sum.md).
-- [Divisible - Chia hết](/Posts/Problems-And-Solutions/Modulo-GCD/Triplet.md).
+- [Divisible - Chia hết](/Posts/Problems-And-Solutions/Modulo-GCD/Divisible.md).
 - [Triplet - Bộ ba](/Posts/Problems-And-Solutions/Modulo-GCD/Triplet.md).

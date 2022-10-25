@@ -1,17 +1,17 @@
 # Tổng dãy
 
-Cho một dãy $A$ gồm $n$ số nguyên dương $a_1, a_2, a_3, \dots, a_n$ và một số nguyên dương $k$.
+Cho một dãy $A$ gồm $n$ số nguyên dương $a_1, a_2, a_3, \ldots, a_n$ và một số nguyên dương $k$.
 
 ***Yêu cầu:*** Tính tổng các phần tử trong dãy và đưa ra kết quả là phần dư của tổng vừa tìm cho $k$.
 
 ## Dữ liệu vào
 
 - Dòng đầu tiên gồm hai số nguyên dương $n \; (1 \le n \le 1000)$ và $k \; (1 \le n \le 1000)$.
-- Dòng thứ hai gồm $n$ số nguyên $a_1, a_2, a_3, \dots, a_n \; (1 \le a_i \le 1000)$.
+- Dòng thứ hai gồm $n$ số nguyên $a_1, a_2, a_3, \ldots, a_n \; (1 \le a_i \le 1000)$.
 
 ## Dữ liệu ra
 
-- Một số nguyên duy nhất là phần dư của phép chia tổng các phần tử trong dãy $A$ với số nguyên dương $k$.
+- Một số nguyên duy nhất là phần dư của phép chia giữa tổng các phần tử trong dãy $A$ với số nguyên dương $k$.
 
 ## Ví dụ
 
@@ -30,4 +30,4 @@ Cho một dãy $A$ gồm $n$ số nguyên dương $a_1, a_2, a_3, \dots, a_n$ v�
 
 ***Explanation:***
 
-Ta có: $\sum\limits_{i = 1}^{5}i = 15 \to 15 \mod 4 = 3$.
+Ta có: $\sum\limits_{i = 1}^{n}i = 15 \Rightarrow 15 \% 4 = 3$

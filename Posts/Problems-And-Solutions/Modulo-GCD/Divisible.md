@@ -1,6 +1,6 @@
 # Chia hết
 
-Cho một dãy $A$ gồm $n$ số nguyên dương $a_1, a_2, a_3, \dots a_n$. Với mỗi số $a_i$ hãy kiểm tra số đó chia hết cho $7$ hoặc $13$ hay không.
+Cho một dãy $A$ gồm $n$ số nguyên dương $a_1, a_2, a_3, \ldots a_n$. Với mỗi số $a_i$ hãy kiểm tra số đó chia hết cho $7$ hoặc $13$ hay không.
 
 - Nếu $a_i$ chia hết cho $7$ in `mod 7`.
 - Nếu $a_i$ chia hết cho $13$ in `mod 13`.
@@ -12,7 +12,7 @@ Cho một dãy $A$ gồm $n$ số nguyên dương $a_1, a_2, a_3, \dots a_n$. V�
 ## Dữ liệu vào
 
 - Dòng đầu tiên là số nguyên dương $n \; (1 \le n \le 1000)$.
-- Dòng thứ hai gồm $n$ số nguyên $a_1, a_2, a_3, \dots, a_n \; (1 \le a_i \le 1000)$.
+- Dòng thứ hai gồm $n$ số nguyên $a_1, a_2, a_3, \ldots, a_n \; (1 \le a_i \le 1000)$.
 
 ## Dữ liệu ra
 
