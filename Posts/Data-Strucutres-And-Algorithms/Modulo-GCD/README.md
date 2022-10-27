@@ -224,6 +224,6 @@ def lcm(a, b):
 
 ## Bài tập tham khảo
 
-- [Array Sum - Tổng dãy](/Posts/Problems-And-Solutions/Modulo-GCD/Array-Sum.md).
-- [Divisible - Chia hết](/Posts/Problems-And-Solutions/Modulo-GCD/Divisible.md).
-- [Triplet - Bộ ba](/Posts/Problems-And-Solutions/Modulo-GCD/Triplet.md).
+- [Array Sum - Tổng dãy](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Array-Sum/Statement.md).
+- [Divisible - Chia hết](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Divisible/Statement.md).
+- [Triplet - Bộ ba](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Triplet/Statement.md).

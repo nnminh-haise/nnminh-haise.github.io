@@ -19,12 +19,15 @@
 
 > *Đề bài và lời giải của mình ở [CodeChef](https://www.codechef.com/).*
 
-## Đề mình tự ra
+## Bài tập theo chủ đề
 
-> *Đây là những bài tập cơ bản mà cậu có thể gặp khi bắt đầu học lập trình hoặc những bài tập ứng dụng mình tự nghĩ ra dựa trên một chủ đề nào đó. Sẽ có một số bài mình tự nghĩ ra hoặc dựa trên một bài nào đó có sẵn và chỉnh sửa lại. Nếu có vấn đề gì thì hãy liên hệ mình nha.*
+> *Đây là những bài tập cơ bản mà cậu có thể gặp khi bắt đầu học lập trình. Những bài tập này do mình tự nghĩ ra dựa trên một chủ đề nào đó hoặc dựa trên một bài nào đó có sẵn và chỉnh sửa lại. Nếu có vấn đề gì thì hãy liên hệ mình nha.*
 
 ### Modulo & GCD
 
-- [Array Sum - Tổng dãy](/Posts/Problems-And-Solutions/Modulo-GCD/Array-Sum.md).
-- [Divisible - Chia hết](/Posts/Problems-And-Solutions/Modulo-GCD/Triplet.md).
-- [Triplet - Bộ ba](/Posts/Problems-And-Solutions/Modulo-GCD/Triplet.md).
+| Statement | Editorial |
+| :---      | :---      |
+| [Array Sum - Tổng dãy](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Array-Sum/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Array-Sum/Editorial.md) |
+| [Divisible - Chia hết](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Divisible/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Divisible/Editorial.md) |
+| [Triplet - Bộ ba](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Triplet/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Triplet/Editorial.md) |
+| [GCD & LCM - Ước chung lớn nhất và Bội chung nhỏ nhất](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/GCD-LCM/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/GCD-LCM/Editorial.md) |
