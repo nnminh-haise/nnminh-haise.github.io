@@ -11,8 +11,8 @@ Cho hai số nguyên dương $a$ và $b$.
 
 ### Input - Dữ liệu vào
 
-- Dòng đầu tiên là số nguyên dương $q$ - số truy vấn cần trả lời. Mỗi truy vấn sẽ gồm hai số nguyên dương $a_i$ và $b_i$.
-- $q$ dòng tiếp theo, mỗi dòng là hai số $a_i, b_i$ ứng với mỗi truy vấn.
+- Dòng đầu tiên là số nguyên dương $q \; (1 \le q \le 1000)$ - số truy vấn cần trả lời. Mỗi truy vấn sẽ gồm hai số nguyên dương $a_i$ và $b_i$.
+- $q$ dòng tiếp theo, mỗi dòng là hai số $a_i, b_i \; (1 \le a_i, b_i \le 10^6)$ ứng với mỗi truy vấn.
 
 ### Output - Dữ liệu ra
 

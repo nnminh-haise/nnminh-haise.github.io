@@ -11,7 +11,7 @@ Cho một dãy $A$ gồm $n$ số nguyên dương $a_1, a_2, a_3, \ldots, a_n$ v
 
 ### Input - Dữ liệu vào
 
-- Dòng đầu tiên gồm hai số nguyên dương $n \; (1 \le n \le 1000)$ và $k \; (1 \le n \le 1000)$.
+- Dòng đầu tiên gồm hai số nguyên dương $n \; (1 \le n \le 1000)$ và $k \; (1 \le k \le 1000)$.
 - Dòng thứ hai gồm $n$ số nguyên $a_1, a_2, a_3, \ldots, a_n \; (1 \le a_i \le 1000)$.
 
 ### Output - Dữ liệu ra

@@ -31,3 +31,4 @@
 | [Divisible - Chia hết](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Divisible/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Divisible/Editorial.md) |
 | [Triplet - Bộ ba](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Triplet/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Triplet/Editorial.md) |
 | [GCD & LCM - Ước chung lớn nhất và Bội chung nhỏ nhất](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/GCD-LCM/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/GCD-LCM/Editorial.md) |
+| [Practice - Luyện tập](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Practice/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Practice/Editorial.md) |

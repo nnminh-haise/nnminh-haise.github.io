@@ -1,5 +1,5 @@
 
-#  | Editorial - Lời giải
+# Bộ ba | Editorial - Lời giải
 
 > *Tags: Math, Combination, Basic*
 
