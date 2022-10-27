@@ -229,3 +229,4 @@ def lcm(a, b):
 - [Triplet - Bộ ba](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Triplet/Statement.md).
 - [GCD & LCM - Ước chung lớn nhất và Bộ chung nhỏ nhất](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/GCD-LCM/Statement.md).
 - [Practice - Luyện tập](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Practice/Statement.md).
+- [Remove Elements - Xóa phần tử](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Remove-Elements/Statement.md).
