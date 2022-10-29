@@ -8,6 +8,8 @@ home: true
 
 - [Data Structures & Algorithms - Cấu trúc dữ liệu và giải thuật](Posts/Data-Strucutres-And-Algorithms/)
 - [Problems & Solutions - Những bài toán mà mình giải và lời giải đi kèm](Posts/Problems-And-Solutions/)
+- [Programming Languages Tutorials - Những bài viết hướng dẫn cơ bản cho các ngôn ngữ lập trình mà mình sử dụng](Posts/Programming-Languages/)
+
 
 # Suy nghĩ của mình
 
