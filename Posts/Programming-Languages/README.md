@@ -6,5 +6,5 @@
 
 > *Trong quá trình học cấp 3 và trên đại học mình được tiếp xúc với C++ rất nhiều. Và C++ được sử dụng để học nền tảng lập trình rất tốt bởi vì là một ngôn ngữ lập trình bậc thấp (low-level programming language). Vì vậy mình muốn viết những bài viết này để có thể hướng dẫn cậu có những kiến thức cơ bản về C++. Hi vọng đây sẽ là một nguồn tài liệu giá trị đối với cậu.*
 
+- [Char, C-Style string & string class in C++ - Kiểu dữ liệu char, C-Style string và lớp string trong C++](/Posts/Programming-Languages/CPP/String/)
 - [Struct in C++ - Cấu trúc dữ liệu trừu tượng struct trong C++](/Posts/Programming-Languages/CPP/Struct/)
-
