@@ -5,6 +5,7 @@
 ## Algorithms - Thuật toán
 
 - [Modulo & GCD - Đồng dư thức và thuật toán tìm ước chung lớn nhất](/Posts/Data-Strucutres-And-Algorithms/Modulo-GCD/).
+- [Prime number - Số nguyên tố](/Posts/Data-Strucutres-And-Algorithms/Prime-Number/).
 
 
 ## Data Structures - Cấu trúc dữ liệu

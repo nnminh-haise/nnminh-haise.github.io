@@ -15,4 +15,9 @@ home: true
 
 > *Dưới đây là những suy nghĩ mà mình muốn kể cho cậu nghe. Mình mong rằng mình có thể đem lại một góc nhìn nào đó mới lạ và giá trị nào đó thông qua những suy nghĩ của mình.*
 
-*Hiện tại mình chưa sắp xếp được thời gian để đăng bài nên cậu quay lại sau nhé! Cảm ơn cậu đã ghé thăm.*
+## Tech Talk
+
+> *Đây là chuyên mục mình nói đến những khía cạnh mang tính công nghệ và ngành công nghệ thông tin.*
+
+- [Học ngôn ngữ lập trình như thế nào?](Posts/Tech-Talk/How-To-Learn-A-Programming-Language/).
+

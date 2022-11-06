@@ -23,7 +23,7 @@
 
 > *Đây là những bài tập cơ bản mà cậu có thể gặp khi bắt đầu học lập trình. Những bài tập này do mình tự nghĩ ra dựa trên một chủ đề nào đó hoặc dựa trên một bài nào đó có sẵn và chỉnh sửa lại. Nếu có vấn đề gì thì hãy liên hệ mình nha.*
 
-### Modulo & GCD
+### Modulo & GCD - Đồng dư thức và Ước chung lớn nhất
 
 | Statement | Editorial |
 | :---      | :---      |
@@ -33,3 +33,10 @@
 | [GCD & LCM - Ước chung lớn nhất và Bội chung nhỏ nhất](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/GCD-LCM/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/GCD-LCM/Editorial.md) |
 | [Practice - Luyện tập](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Practice/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Practice/Editorial.md) |
 | [Remove Elements - Xóa phần tử](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Remove-Elements/Statement.md) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Modulo-GCD/Remove-Elements/Editorial.md) |
+
+### Prime number - Số nguyên tố
+
+| Statement | Editorial |
+| :---      | :---      |
+| [Almost Prime - Số cận nguyên tố](/Posts/Problems-And-Solutions/Categories/Prime-Number/Almost-Prime/Statement.html) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Prime-Number/Almost-Prime/Editorial.html) |
+| [N-th Prime - Số nguyên tố thứ n](/Posts/Problems-And-Solutions/Categories/Prime-Number/N-th-Prime/Statement.html) | [Editorial - Lời giải](/Posts/Problems-And-Solutions/Categories/Prime-Number/N-th-Prime/Editorial.html) |
