@@ -6,7 +6,7 @@
 
 - [Modulo & GCD - Đồng dư thức và thuật toán tìm ước chung lớn nhất](/Posts/Data-Strucutres-And-Algorithms/Modulo-GCD/).
 - [Prime number - Số nguyên tố](/Posts/Data-Strucutres-And-Algorithms/Prime-Number/).
-
+- [Recursion & Back Tracking Algorithms - Đệ quy & Thuật toán quay lui](/Posts/Data-Strucutres-And-Algorithms/Recursion/).
 
 ## Data Structures - Cấu trúc dữ liệu
 
