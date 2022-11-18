@@ -27,7 +27,7 @@ $$\overline{A} = \left\{x \in X : x \notin A \right\}$$
 
 Hợp của $A$ và $B$, kí hiệu $A \cup B$, là tập hợp các phần tử hoặc thuộc vào $A$ hoặc thuộc vào $B$.
 
-$$A \cup B = \left\{x : x \in A \text{ hoặc } x \in B \right\}$$
+$$A \cup B = \left\{x : x \in A \; \text{or} \; x \in B \right\}$$
 
 *Minh họa bằng Sơ đồ Venn:*
 
@@ -43,7 +43,7 @@ $$A \cup B = \left\{x : x \in A \text{ hoặc } x \in B \right\}$$
 
 Giao của $A$ và $B$, kí hiệu $A \cap B$ là tập hợp các phần tử đồng thời thuộc cả $A$ và $B$.
 
-$$A \cap B = \left\{x : x \in A \text{ và } x \in B \right\}$$
+$$A \cap B = \left\{x : x \in A \; \text{and} \; x \in B \right\}$$
 
 *Minh họa bằng Sơ đồ Venn:*
 
@@ -59,7 +59,7 @@ $$A \cap B = \left\{x : x \in A \text{ và } x \in B \right\}$$
 
 Hiệu của $A$ và $B$, kí hiệu $A \backslash B$, là tập hợp các phần tử thuộc tập $A$ nhưng không thuộc tập $B$.
 
-$$A \backslash B = \left\{x : x \in A \text{ và } x \notin B \right\}$$
+$$A \backslash B = \left\{x : x \in A \; \text{and} \; x \notin B \right\}$$
 
 *Minh họa bằng Sơ đồ Venn:*
 
@@ -78,29 +78,37 @@ $$A \backslash B = \left\{x : x \in A \text{ và } x \notin B \right\}$$
 **1.** Kết hợp
 
 $$
+\begin{matrix}
 (A \cup B) \cup C = A \cup (B \cup C) \\
 (A \cap B) \cap C = A \cap (B \cap C) \\
+\end{matrix}
 $$
 
 **2.** Giao hoán
 
 $$
+\begin{matrix}
 A \cup B = B \cup A \\
 A \cap B = B \cap A \\
+\end{matrix}
 $$
 
 **3.** Phân bố
 
 $$
+\begin{matrix}
 A \cup (B \cap C) = (A \cup B) \cap (A \cup C) \\
 A \cap (B \cup C) = (A \cap B) \cup (A \cap C) \\
+\end{matrix}
 $$
 
 **4.** Đối ngẫu
 
 $$
+\begin{matrix}
 \overline{A \cup B} = \overline{A} \cap \overline{B} \\
 \overline{A \cap B} = \overline{A} \cup \overline{B} \\
+\end{matrix}
 $$
 
 ---
