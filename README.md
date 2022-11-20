@@ -10,7 +10,7 @@ home: true
 - [Problems & Solutions - Những bài toán mà mình giải và lời giải đi kèm](Posts/Problems-And-Solutions/)
 - [Programming Languages Tutorials - Những bài viết hướng dẫn cơ bản cho các ngôn ngữ lập trình mà mình sử dụng](Posts/Programming-Languages/)
 - [Mathematics walkthroughs - Những bài viết hướng dẫn cơ bản về các kiến thức liên quan đến toán học trong lập trình](/Posts/Math/)
-
+- [Tiếng anh](/Posts/English)
 
 # Suy nghĩ của mình
 
