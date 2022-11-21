@@ -1,9 +1,9 @@
 
-# Problems & Solutions - Những bài toán mà mình giải và lời giải đi kèm
+# Những bài toán và lời giải - Problems & Solutions
 
 > *Dưới đây là những bài tập mà mình làm và những bài tập mình tự ra để làm bài tập cho câu lạc bộ mà mình tham gia hoặc đi dạy thêm. Nếu có bất cứ vấn đề gì thì hãy liên hệ mình nha.*
 
-## CSES
+<!-- ## CSES
 
 > *Đề bài và lời giải của mình ở [CSES](https://cses.fi/problemset/list/).*
 
@@ -17,7 +17,7 @@
 
 ## CodeChef
 
-> *Đề bài và lời giải của mình ở [CodeChef](https://www.codechef.com/).*
+> *Đề bài và lời giải của mình ở [CodeChef](https://www.codechef.com/).* -->
 
 ## Bài tập theo chủ đề
 
