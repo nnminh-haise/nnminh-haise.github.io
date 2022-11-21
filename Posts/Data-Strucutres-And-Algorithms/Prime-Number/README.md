@@ -260,13 +260,18 @@ Vậy là mình và cậu đã cùng nhau đi qua một số chủ đề chính 
 
 ---
 
+## Bài tập tham khảo
+
+- [Số gần nguyên tố](/Posts/Problems-And-Solutions/Categories/Prime-Number/Almost-Prime/Statement.html).
+- [Đếm số nguyên tố](/Posts/Problems-And-Solutions/Categories/Prime-Number/Count-Prime/Statement.html).
+- [Số nguyên tố thứ n](/Posts/Problems-And-Solutions/Categories/Prime-Number/N-th-Prime/Statement.html).
+- [Số nguyên tố tiếp theo](/Posts/Problems-And-Solutions/Categories/Prime-Number/Next-Prime/Editorial.html).
+- [Số siêu nguyên tố](/Posts/Problems-And-Solutions/Categories/Prime-Number/Super-Prime/Statement.html).
+
+---
+
 ## Tài liệu tham khảo
 
 1. [Prime number - Số nguyên tố | Wikipedia](https://en.wikipedia.org/wiki/Prime_number).
 2. [Sieve of Eratosthenes - Thuật toán sàng số nguyên tố | Wikipedia](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes).
 3. [Sieve of Eratosthenes - Thuật toán sàng số nguyên tố | CP - Algorithms](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html).
-
-## Bài tập tham khảo
-
-- [Almost Prime - Số cận nguyên tố](/Posts/Problems-And-Solutions/Categories/Prime-Number/Almost-Prime/Statement.html).
-- [N-th Prime - Số nguyên tố thứ n](/Posts/Problems-And-Solutions/Categories/Prime-Number/N-th-Prime/Statement.html).
