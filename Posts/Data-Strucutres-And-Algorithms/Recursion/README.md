@@ -332,8 +332,224 @@ Ví dụ với $n = 5$ thì cậu có nghiệm $X$ như sau:
         height="100"
         style="display: block; margin: 0 auto"/>
 
+Vì dãy nhị phân có độ dài $5$ nên mỗi nghiệm $X$ sẽ có $5$ phần tử và ta sẽ lần lượt điền các số $0$ và $1$ vào từng vị trí mỗi khi cả $5$ ô được điền thì khi đó một nghiệm $X$ đã được xây dựng xong. Quá trình này sẽ được lặp đi lặp lại cho đến khi xây dựng đủ tất cả các nghiệm có thể.
+
+Để đảm bảo được các nghiệm tìm được sẽ được sắp xếp theo thứ tự từ điển thì ta sẽ lần lượt thay thế các số $0$ và $1$ vào các vị trí từ cuối đến đầu của nghiệm $X$ với mỗi lần số $1$ được thay vào thì các vị trí sau đó sẽ được thay bằng những số $0$.
+
+Một cách hiểu khác cho quá trình này như sau: Nghiệm đầu tiên thỏa mãn yêu cầu bài toán và nhỏ nhất chính là một dãy toàn các số $0$. Khi đó, nếu cậu xem đây là một số nhị phân có $n$ bit $0$ thì nghiệm tiếp theo cần tìm chính là nghiệm hiện tại cộng thêm $1$ (cộng theo quy tắc cộng số nhị phân). Nghiệm cuối cùng chính là nghiệm $X$ với $n$ bit $1$.
+
+<img src="./img02.png" 
+        alt="Picture" 
+        width="250"
+        style="display: block; margin: 0 auto"/>
+
+***Mã giả:***
+
+```
+backtracking(i, A, X) {
+	Nếu xây được nghiệm X {
+		in ra màn hình nghiệm X
+		return;
+	}
+	Với i lần lượt bằng 0 và 1 {
+		Ghi nhận thành phần thứ i của nghiệm X;
+		backtracking(i + 1, A, X);
+		Hủy bỏ ghi nhận thành phần thứ i; 
+	}
+}
+```
+
+> *Cậu hãy thử dựa trên mã giả trên để áp dụng vào ngôn ngữ lập trình cậu sử dụng trước khi xem code mẫu gợi ý của mình nha.*
+
+***C++***
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void backtracking(const int n, int index, int*& x) {
+	if (index == n) {
+		for (int i = 0; i < n; ++i) {
+			cout << x[i];
+		}
+		cout << "\n";
+		return;
+	}
+	for (int i = 0; i <= 1; ++i) {
+		x[index] = i;
+		backtracking(n, index + 1, x);
+	}
+}
+
+int main() {
+	int n;
+	cin >> n;
+	int* x = new int [n];
+	backtracking(n, 0, x);
+	delete[] x;
+	return 0;
+}
+```
+
+***Python***
+
+```py
+def backtracking(n: int, index: int, x: list):
+	if index == n:
+		print("".join(map(str, x)))
+	else:
+		for i in range(0, 2):
+			x[index] = i
+			backtracking(n, index + 1, x)
+
+
+n = int(input())
+x = [0 for i in range(0, n)]
+backtracking(n, 0, x)
+```
+
+***Giải thích code:*** Hàm $backtracking()$ nhận $3$ tham số đầu vào: `n, index` và mảng `x`. Trong đó `n` và `index` lần lượt là số lượng phần tử của dãy nhị phân và chỉ số xác định thứ tự của thành phần nghiệm đang xây dựng hiện tại. Mảng `x` được sử dụng làm đại diện cho nghiệm $X$ và vì ta đã xác định được các thành phần nghiệm gồm hai số $0$ và $1$ nên không cần tập các thành phần nghiệm $A$ mà chỉ cần sử dụng vòng lặp `for`.
+
+***Độ phức tạp thời gian:*** Ta thấy có mỗi thành phần của nghiệm $X$ có thể nhận hai giá trị $0$ và $1$. Như vậy tổng số lượng nghiệm $X$ có thể xây dựng được sẽ là $2^n$ (*theo công thức nhân*). Do vậy, độ phức tạp thời gian của giải thuật là $O(2^n)$.
+
+<!-- TODO: Hoàn thành bài toán 5 -->
+
+<!-- ### Bài toán 5
+
+***Đề bài:*** Cho một bàn cờ vua kích thước $5 \times 5$ và quân mã được đặt ở ô có vị trí `(x, y)`. Hãy đếm số lượng lộ trình đi của quân mã sao cho quân mã sẽ đi hết bàn cờ và mỗi ô chỉ được đi không quá một lần.
+
+> *Đây là một bài toán kinh điển và có nhiều lời giải khác nhau. Bên cạnh đó đây cũng là một bài toán thường thấy khi nhắc đến giải thuật quay lui.*
+
+<img src="./img03.png" 
+        alt="Picture" 
+        width="300"
+        style="display: block; margin: 0 auto"/>
+
+Giả sử quân mã được đặt ở vị trí `(3, 3)` như hình vẽ, thì một trong những lộ trình đi của quân mã như sau:
+
+<img src="./img04.png" 
+        alt="Picture" 
+        width="300"
+        style="display: block; margin: 0 auto"/>
+
+Ô xuất phát sẽ được đánh số $0$, các ô tiếp theo sẽ được đánh số $1, 2, 3, \ldots , 24$.
+
+Đây là một trong nhiều lộ trình có thể. Yêu cầu bài toán là đếm số lượng lộ trình như thế này.
+
+> *Cậu hãy thử suy nghĩ và làm thử trước khi đọc phần tiếp theo nha.*
+
+***Giải thuật:*** Như mình đã nói, đây là một bài toán có nhiều giải thuật. Mình sẽ gợi ý cho cậu giải thuật như sau:
+
+- Tập nghiệm $X$ của đề bài chính là tập các lộ trình như mô tả của quân mã. Mỗi nghiệm $x$ sẽ là một lộ trình thỏa mãn yêu cầu đề bài (ở hình vẽ trên cũng là một nghiệm $x$ đúng).
+- Tập thành phần nghiệm $A$: là các vị trí có thể đi đến của quân mã từ vị trí hiện tại.
+
+<img src="./img05.png" 
+        alt="Picture" 
+        width="300"
+        style="display: block; margin: 0 auto"/>
+
+Từ vị trí `X` thì quân mã có thể đi đến các ô đánh số từ $1$ đến $8$.
+
+***Mã giả***
+
+```
+backtracking(i, A, X) {
+	Nếu đã xây dựng xong nghiệm X {
+		Kiểm tra lộ trình;
+		return;
+	}
+	Ngược lại {
+		Với mỗi bước đi có thể của quân mã {
+			Thử nước đi;
+			backtracking(i + 1, A, X);
+			Hủy bước đi;
+		}
+	}
+}
+```
+
+Trong khi xây dựng nghiệm $x$ hiện tại, các thành phần nghiệm sẽ là vị trí di chuyển (có thể) của quân mã (xét ở vị trí hiện tại). Phép ghi nhận thành phần nghiệm $i$ hiện tại chỉ ghi nhận đối với những ô trên bàn cờ mà quân mã chưa đi qua. Do vậy mã nghiệm $x$ sẽ được xây dựng xong khi tất cả các ô trên bàn cờ đã được điền kín. Và khi đó nghiệm $x$ tìm được sẽ là một nghiệm đúng.
+
+***C++***
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define SIZE 5
+
+const int dx[8] = {-1, -2, -2, -1, +1, +2, +2, +1};
+const int dy[8] = {-2, -1, +1, +2, +2, +1, -1, -2};
+
+bool inside(int x, int y) {
+	return (0 <= x && x < SIZE && 0 <= y && y < SIZE);
+}
+
+int chess[SIZE][SIZE];
+
+void reset() {
+	for (int i = 0; i < SIZE; ++i) {
+		for (int j = 0; j < SIZE; ++j) {
+			chess[i][j] = -1;
+		}
+	}
+}
+
+void print() {
+    cout << "---\n";
+	for (int i = 0; i < SIZE; ++i) {
+		for (int j = 0; j < SIZE; ++j) {
+			cout << setw(2) << chess[i][j] << (j < SIZE - 1 ? " " : "\n");
+		}
+	}
+}
+
+void backTracking(int x, int y, int step, int& counter) {
+	chess[x][y] = step;
+	if (step == SIZE * SIZE - 1) {
+		print();
+		++counter;
+	}
+	else {
+		for (int k = 0; k < 8; ++k) {
+			int new_x = x + dx[k];
+			int new_y = y + dy[k];
+			if (inside(new_x, new_y) && chess[new_x][new_y] == -1) {
+				backTracking(new_x, new_y, step + 1, counter);
+                chess[new_x][new_y] = -1;
+			}
+		}
+	}
+}
+
+int main() {
+    int counter = 0;
+	for (int i = 0; i < SIZE; ++i) {
+		for (int j = 0; j < SIZE; ++j) {
+			reset();
+			backTracking(i, j, 0, counter);
+		}
+	}
+	cout << "---\n";
+	cout << "Number of traversal: " << counter << endl;
+    return 0;
+}
+```
+
+***Python***
+
+```py
+``` -->
 
 
 
+
+## Tài liệu tham khảo
+
+- [Introduction to Recursion | GeeksforGeeks](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/).
+- [Recursion | Wikipedia](https://en.wikipedia.org/wiki/Recursion).
+- [Python Recursion | Progammingiz](https://www.programiz.com/python-programming/recursion).
 
 
