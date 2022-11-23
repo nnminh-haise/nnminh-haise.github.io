@@ -1,5 +1,5 @@
 
-# Độ dài của số | Editorial - Lời giải
+# Tính toán 1 | Editorial - Lời giải
 
 > *Tags: Basic, Recursion*
 
