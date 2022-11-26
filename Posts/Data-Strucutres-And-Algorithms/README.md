@@ -18,7 +18,7 @@
 
 *"Đệ" tiếng Hán có thể hiểu là "em", "quy" có thể hiểu là "con rùa". Vậy "đệ quy" là "em rùa" hay "con rùa nhỏ" à? Quay lui có phải là quay đằng sau rồi đi lui?*
 
-### [Các thuật toán sắp xếp thông dụng](/posts/data-strucutres-and-algorithms/sorting)
+### [Các thuật toán sắp xếp thông dụng](/posts/data-strucutres-and-algorithms/sorting/)
 
 *Con người có thể sắp xếp bằng cách quan sát và thay đổi vị trí của các phần tử nhưng máy tính sẽ sắp xếp như thế nòa?*
 
