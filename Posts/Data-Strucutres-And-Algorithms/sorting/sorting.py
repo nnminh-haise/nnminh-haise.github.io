@@ -105,7 +105,22 @@ def quickSort(arr: list, left: int, right: int):
     return arr
 
 
+def distributingSort(arr: list):
+    f = [0 for i in range(0, 1000001)]
+    
+    for item in arr:
+        f[item] += 1
+    
+    a = list()
+    
+    for i in range(0, 1000001):
+        for j in range(0, f[i]):
+            a.append(i)
+    
+    return a
+
 a = [3, 2, 4, 1, 5, 9, 10, 8, 6]
 
-print(quickSort(a, 0, len(a) - 1))
+# print(quickSort(a, 0, len(a) - 1))
+print(distributingSort(a))
 

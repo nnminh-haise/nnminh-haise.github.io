@@ -1,5 +1,5 @@
 
-# Các thuật toán sắp xếp thông dụng
+# Sắp xếp
 
 ***Bài toán mở đầu:*** Cho một dãy $A$ có $n \; (1 \le n \le 10^6)$ phần tử. Hãy sắp xếp lại mảng $A$ theo thứ tự tăng dần về giá trị của các phần tử.
 
@@ -222,6 +222,47 @@ def quickSort(arr: list, left: int, right: int):
         quickSort(arr, i, right)
     
     return arr
+```
+
+---
+
+## Thuật toán sắp xếp đếm phân phối (Distributing Sort)
+
+### Ý tưởng
+
+- Đếm số lần xuất hiện của các giá trị trong dãy cần sắp xếp. Suy ra được tập các giá trị duy nhất.
+- Sắp xếp tập các giá trị duy nhất.
+- Dựa trên tập giá trị kết hợp với tần suất của mỗi giá trị để hoàn thành việc sắp xếp dãy.
+
+### Ưu và nhược điểm
+
+- Ưu điểm:
+
+    - Có thời gian chạy tuyến tính nếu các giá trị sắp xếp không quá lớn.
+    - Ổn định.
+
+- Nhược điểm:
+
+    - Không thích hợp khi sắp xếp các tập giá trị lớn.
+
+### Cài đặt thuật toán
+
+*Cài đặt dưới đây được áp dụng đối với việc sắp xếp tập giá trị là các số nguyên có giá trị trong đoạn $[1, 10^6]$*.
+
+```py
+def distributingSort(arr: list):
+    f = [0 for i in range(0, 1000001)]
+    
+    for item in arr:
+        f[item] += 1
+    
+    a = list()
+    
+    for i in range(0, 1000001):
+        for j in range(0, f[i]):
+            a.append(i)
+    
+    return a
 ```
 
 ---
