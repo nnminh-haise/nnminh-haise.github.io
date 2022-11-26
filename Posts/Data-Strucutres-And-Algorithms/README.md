@@ -6,19 +6,19 @@
 
 > *Khi toán học logic được lên ngôi làm thay đổi cuộc sống của con người.*
 
-### [Đồng dư thức và thuật toán tìm ước chung lớn nhất - Modulo & GCD](/posts/data-strucutres-and-algorithms/modulo-gcd/)
+### [Đồng dư thức và thuật toán tìm ước chung lớn nhất - Modulo & GCD](./modulo-gcd/)
 
 *Thuở nhỏ chắc ai cũng được học qua về ước số và bội số. Nhưng trong một vài trường hợp đặc biệt thì chúng lại trở nên thú dị hơn và mang lại cũng nhiều rắc rối hơn...*
 
-### [Số nguyên tố - Prime number](/posts/data-strucutres-and-algorithms/prime-number)
+### [Số nguyên tố - Prime number](./prime-number)
 
 *Số nguyên tố có phải là "elemental number"?*
 
-### [Đệ quy & Thuật toán quay lui - Recursion & Back Tracking Algorithms](/posts/data-strucutres-and-algorithms/recursion)
+### [Đệ quy & Thuật toán quay lui - Recursion & Back Tracking Algorithms](./recursion)
 
 *"Đệ" tiếng Hán có thể hiểu là "em", "quy" có thể hiểu là "con rùa". Vậy "đệ quy" là "em rùa" hay "con rùa nhỏ" à? Quay lui có phải là quay đằng sau rồi đi lui?*
 
-### [Các thuật toán sắp xếp thông dụng](/posts/data-strucutres-and-algorithms/sorting/)
+### [Các thuật toán sắp xếp thông dụng](./sorting)
 
 *Con người có thể sắp xếp bằng cách quan sát và thay đổi vị trí của các phần tử nhưng máy tính sẽ sắp xếp như thế nòa?*
 
