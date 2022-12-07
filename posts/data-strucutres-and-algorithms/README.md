@@ -24,6 +24,13 @@
 
 ### [Bài toán tìm kiếm - Searching algorithms](./searching)
 
+*Tìm kiếm là một trong các bài toán thường xuyên xuất hiện trong cuộc sống. Vậy trong lập trình thì việc tìm kiếm sẽ được giải quyết như thế nào?*
+
+### [Quy hoạch động - Dynamic programming (bài dịch từ Topcoder)](./dynamic-programming)
+
+*Một chuyên đề tốn nhiều chất xám và gây ám ảnh tới những ai biết về nó!*
+
+
 ## Data Structures - Cấu trúc dữ liệu
 
 > *Tài liệu đang trong quá trình hoàn thiện, mong cậu thông cảm nha...*
