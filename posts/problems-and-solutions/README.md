@@ -224,10 +224,18 @@ h1 {
     text-align: left !important;
 }
 
+#post h2 {
+    text-align: left !important;
+}
+
 #post3 a {
     color: #665A48;
     font-family: 'Charm', cursive;
     font-size: 1.3em;
+    text-align: left !important;
+}
+
+#post h3 {
     text-align: left !important;
 }
 
