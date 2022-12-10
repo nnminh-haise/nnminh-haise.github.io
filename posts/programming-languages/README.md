@@ -50,35 +50,39 @@ h1 {
     text-align: center;
 }
 
-h2 {
+/* h2 {
     color: #379237;
     font-family: 'Charm', cursive;
     font-size: 2em;
     text-align: center;
-}
+} */
 
 #platform2 h2 {
     color: #665A48;
     font-family: 'Charm', cursive;
     font-size: 2em;
+    text-align: left !important;
 }
 
 #platform3 h3 {
     color: #AA8B56;
     font-family: 'Charm', cursive;
     font-size: 1.7em;
+    text-align: left !important;
 }
 
 #post2 a {
     color: #665A48;
     font-family: 'Charm', cursive;
     font-size: 1.7em;
+    text-align: left !important;
 }
 
 #post3 a {
     color: #665A48;
     font-family: 'Charm', cursive;
     font-size: 1.3em;
+    text-align: left !important;
 }
 
 p {
@@ -86,4 +90,3 @@ p {
 }
 
 </style>
-
