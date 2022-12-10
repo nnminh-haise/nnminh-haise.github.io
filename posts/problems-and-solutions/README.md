@@ -3,27 +3,92 @@
 
 > 💡 *Practice makes perfect! Chăm chỉ làm bài tập sẽ giúp cậu nắm vững và hiểu sâu hơn kiến thức đó!*
 
-<!-- ## ✎ CSES
+<div id="platform2">
+
+## 🌱 CSES
 
 > *Đề bài và lời giải của mình ở [CSES](https://cses.fi/problemset/list/).*
 
-## ✎ Codeforces
+| Đề bài | Lời giải |
+| :--- | :--- |
+
+<!-- END_OF -->
+
+</div>
+
+---
+
+<div id="platform2">
+
+## 🌱 Codeforces
 
 > *Đề bài và lời giải của mình ở [Codeforces](https://codeforces.com/).*
 
-## ✎ LeetCode
+| Đề bài | Lời giải |
+| :--- | :--- |
 
-> *Đề bài và lời giải của mình ở [LeetCode](https://leetcode.com/).*
+<!-- END_OF -->
 
-## ✎ CodeChef
+</div>
 
-> *Đề bài và lời giải của mình ở [CodeChef](https://www.codechef.com/).* -->
+---
 
-## ✎ Bài tập theo chủ đề
+<div id="platform2">
+
+## 🌱 VNOI
+
+> *Đề bài và lời giải của mình ở [VNOI](https://oj.vnoi.info/).*
+
+| Đề bài | Lời giải |
+| :--- | :--- |
+
+<!-- END_OF -->
+
+</div>
+
+---
+
+<div id="platform2">
+
+## 🌱 Atcoder
+
+> *Đề bài và lời giải của mình ở [Atcoder](https://atcoder.jp/).*
+
+| Đề bài | Lời giải |
+| :--- | :--- |
+
+<!-- END_OF -->
+
+</div>
+
+---
+
+<div id="platform2">
+
+## 🌱 CodeChef
+
+> *Đề bài và lời giải của mình ở [CodeChef](https://www.codechef.com/).*
+
+| Đề bài | Lời giải |
+| :--- | :--- |
+
+<!-- END_OF -->
+
+</div>
+
+---
+
+<div id="platform2">
+
+## 🌱 Bài tập theo chủ đề
+
+</div>
 
 > *Đây là những bài tập cơ bản mà cậu có thể gặp khi bắt đầu học lập trình. Những bài tập này do mình tự nghĩ ra dựa trên một chủ đề nào đó hoặc dựa trên một bài nào đó có sẵn và chỉnh sửa lại. Nếu có vấn đề gì thì hãy liên hệ mình nha.*
 
-### ➣ Đồng dư thức & Ước chung lớn nhất
+<div id="platform3">
+
+### ✎ Đồng dư thức & Ước chung lớn nhất - Modulo & GCD
 
 | Đề bài | Lời giải |
 | :--- | :--- |
@@ -36,9 +101,13 @@
 
 <!-- END_OF_modulo-gcd -->
 
+</div>
+
 ---
 
-### ➣ Số nguyên tố
+<div id="platform3">
+
+### ✎ Số nguyên tố - Prime number
 
 | Đề bài | Lời giải |
 | :--- | :--- |
@@ -50,9 +119,13 @@
 
 <!-- END_OF_prime-number -->
 
+</div>
+
 ---
 
-### ➣ Đệ quy & Quay lui
+<div id="platform3">
+
+### ✎ Đệ quy & Quay lui - Recursion & Backtracking
 
 | Đề bài | Lời giải |
 | :--- | :--- |
@@ -61,9 +134,13 @@
 
 <!-- END_OF_recursion -->
 
+</div>
+
 ---
 
-### ➣ Bài toán tìm kiếm
+<div id="platform3">
+
+### ✎ Bài toán tìm kiếm - Searching
 
 | Đề bài | Lời giải |
 | :--- | :--- |
@@ -74,9 +151,13 @@
 
 <!-- END_OF_searching -->
 
+</div>
+
 ---
 
-### ➣ Bài toán sắp xếp
+<div id="platform3">
+
+### ✎ Bài toán sắp xếp - Sorting
 
 | Đề bài | Lời giải |
 | :--- | :--- |
@@ -87,32 +168,63 @@
 
 <!-- END_OF_sorting -->
 
+</div>
+
 ---
 
+<!-- Page styling -->
+
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+.hero .description {
+    font-style: italic;
+    color: #483838 !important;
+}
 
 h1 {
     color: #379237;
-    font-family: 'Dancing Script', cursive;
-    font-size: 3em;
+    font-family: 'Charm', cursive;
+    font-size: 2.5em;
     text-align: center;
 }
 
-h2 {
-    color: #665A48;
+/* h2 {
+    color: #379237;
+    font-family: 'Charm', cursive;
     font-size: 2em;
-    font-weight: bolder;
+    text-align: center;
+} */
+
+#platform2 h2 {
+    color: #665A48;
+    font-family: 'Charm', cursive;
+    font-size: 2em;
 }
 
-h3 {
-    color: #379237;
-    font-size: 1.5em;
-    font-style: italic;
+#platform3 h3 {
+    color: #AA8B56;
+    font-family: 'Charm', cursive;
+    font-size: 1.7em;
+}
+
+#post2 a {
+    color: #665A48;
+    font-family: 'Charm', cursive;
+    font-size: 1.7em;
+}
+
+#post3 a {
+    color: #665A48;
+    font-family: 'Charm', cursive;
+    font-size: 1.3em;
 }
 
 p {
     font-size: 1.15em;
 }
+
 </style>
+
+
+

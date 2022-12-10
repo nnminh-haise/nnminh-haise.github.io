@@ -3,7 +3,7 @@
 
 > *Đây là những bài viết nhỏ mang tính học thuật về những kiến thức toán học cơ bản và nền táng cho việc học lập trình hay trong toán học nói chung. Nhưng kiến thức này là bản thân mình cảm thấy hay, nhiều ứng dụng và quan trọng trong ngành lập trình.*
 
-<div id="post">
+<div id="post2">
 
 ## [🌱 Lý thuyết tập hợp](./set-theory/)
 
@@ -13,23 +13,52 @@
 
 ---
 
+<!-- Page styling -->
+
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+.hero .description {
+    font-style: italic;
+    color: #483838 !important;
+}
 
 h1 {
     color: #379237;
-    font-family: 'Dancing Script', cursive;
-    font-size: 3em;
+    font-family: 'Charm', cursive;
+    font-size: 2.5em;
     text-align: center;
-    /* font-style: italic; */
 }
 
-#post a {
+/* h2 {
+    color: #379237;
+    font-family: 'Charm', cursive;
+    font-size: 2em;
+    text-align: center;
+} */
+
+#platform2 h2 {
     color: #665A48;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Charm', cursive;
+    font-size: 2em;
+}
+
+#platform3 h3 {
+    color: #AA8B56;
+    font-family: 'Charm', cursive;
     font-size: 1.7em;
-    font-weight: bolder;
+}
+
+#post2 a {
+    color: #665A48;
+    font-family: 'Charm', cursive;
+    font-size: 1.7em;
+}
+
+#post3 a {
+    color: #665A48;
+    font-family: 'Charm', cursive;
+    font-size: 1.3em;
 }
 
 p {
