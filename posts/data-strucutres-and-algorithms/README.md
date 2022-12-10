@@ -1,5 +1,9 @@
 
+<div id="custom">
+
 # Cấu trúc dữ liệu và giải thuật
+
+</div>
 
 > 💡 *Đây là những ghi chú hoặc tài liệu do mình tự tay soạn lại trong quá trình học. Hi vọng cậu sẽ có được những góc nhìn mới hay những cách tư duy mới khi đọc những tài liệu này. Ở cuối mỗi bài viết mình sẽ cố gắng liệt kê nguồn và tài liệu mà mình đã dùng và tham khảo để viết lên những bài viết đó. Nếu có những sai sót hay khúc mắc gì cậu hãy liên hệ mình nha.*
 
@@ -63,19 +67,26 @@
     color: #483838 !important;
 }
 
-h1 {
+.hero h1 {
     color: #379237;
     font-family: 'Charm', cursive;
     font-size: 2.5em;
     text-align: center;
 }
 
-/* h2 {
-    color: #4E944F;
+#custom h1 {
+    color: #379237;
+    font-family: 'Charm', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#custom h2 {
+    color: #379237;
     font-family: 'Charm', cursive;
     font-size: 2em;
     text-align: center;
-} */
+}
 
 #platform1 h1 {
     color: #4E944F;

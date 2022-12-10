@@ -1,7 +1,11 @@
 
+<div id="custom">
+
 # Bài tập và lời giải
 
 > 💡 *Practice makes perfect! Chăm chỉ làm bài tập sẽ giúp cậu nắm vững và hiểu sâu hơn kiến thức đó!*
+
+</div>
 
 <div id="platform2">
 
@@ -182,19 +186,26 @@
     color: #483838 !important;
 }
 
-h1 {
+.hero h1 {
     color: #379237;
     font-family: 'Charm', cursive;
     font-size: 2.5em;
     text-align: center;
 }
 
-/* h2 {
-    color: #4E944F;
+#custom h1 {
+    color: #379237;
+    font-family: 'Charm', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#custom h2 {
+    color: #379237;
     font-family: 'Charm', cursive;
     font-size: 2em;
     text-align: center;
-} */
+}
 
 #platform1 h1 {
     color: #4E944F;

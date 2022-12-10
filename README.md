@@ -2,7 +2,7 @@
 home: true
 ---
 
-<div id="platform1">
+<div id="custom">
 
 # ✎ Minh học công nghệ thông tin ✎
 
@@ -44,7 +44,7 @@ home: true
 
 ---
 
-<div id="platform1">
+<div id="custom">
 
 # ☁︎ Minh tâm sự ☀︎
 
@@ -66,19 +66,26 @@ home: true
     color: #483838 !important;
 }
 
-h1 {
+.hero h1 {
     color: #379237;
     font-family: 'Charm', cursive;
     font-size: 2.5em;
     text-align: center;
 }
 
-/* h2 {
-    color: #4E944F;
+#custom h1 {
+    color: #379237;
+    font-family: 'Charm', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#custom h2 {
+    color: #379237;
     font-family: 'Charm', cursive;
     font-size: 2em;
     text-align: center;
-} */
+}
 
 #platform1 h1 {
     color: #4E944F;

@@ -1,7 +1,11 @@
 
+<div id="custom">
+
 # Tản mạn về toán học
 
 > *Đây là những bài viết nhỏ mang tính học thuật về những kiến thức toán học cơ bản và nền táng cho việc học lập trình hay trong toán học nói chung. Nhưng kiến thức này là bản thân mình cảm thấy hay, nhiều ứng dụng và quan trọng trong ngành lập trình.*
+
+</div>
 
 <div id="post2">
 
@@ -23,19 +27,26 @@
     color: #483838 !important;
 }
 
-h1 {
+.hero h1 {
     color: #379237;
     font-family: 'Charm', cursive;
     font-size: 2.5em;
     text-align: center;
 }
 
-/* h2 {
-    color: #4E944F;
+#custom h1 {
+    color: #379237;
+    font-family: 'Charm', cursive;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#custom h2 {
+    color: #379237;
     font-family: 'Charm', cursive;
     font-size: 2em;
     text-align: center;
-} */
+}
 
 #platform1 h1 {
     color: #4E944F;
