@@ -1,5 +1,5 @@
 
-# Hàm trong C++ | Function in C++
+# Hàm trong C++
 
 > *Trong toán học có hàm số, hàm lượng giác, hàm hợp. Vậy trong lập trình có hàm gì?*
 

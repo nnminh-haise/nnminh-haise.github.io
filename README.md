@@ -8,7 +8,7 @@ home: true
 
 <div id="post">
 
-## [🌱 Cấu trúc dữ liệu và giải thuật](posts/data-strucutres-and-algorithms/)
+## [🌱 Cấu trúc dữ liệu và giải thuật](./posts/data-strucutres-and-algorithms/)
 
 </div>
 
@@ -16,7 +16,7 @@ home: true
 
 <div id="post">
 
-## [🌱 Bài tập và lời giải](posts/problems-and-solutions/)
+## [🌱 Bài tập và lời giải](./posts/problems-and-solutions/)
 
 </div>
 
@@ -24,7 +24,7 @@ home: true
 
 <div id="post">
 
-## [🌱 Tản mạn về ngôn ngữ lập trình](posts/programming-languages/)
+## [🌱 Tản mạn về ngôn ngữ lập trình](./posts/programming-languages/)
 
 </div>
 
@@ -32,7 +32,7 @@ home: true
 
 <div id="post">
 
-## [🌱 Tản mạn về toán học](posts/math/)
+## [🌱 Tản mạn về toán học](./posts/math/)
 
 </div>
 
@@ -61,7 +61,7 @@ h1 {
     color: #379237;
     font-family: 'Dancing Script', cursive;
     font-size: 3em;
-    /* font-style: italic; */
+    text-align: center;
 }
 
 #post a {
@@ -72,7 +72,6 @@ h1 {
 }
 
 p {
-    color: #0B4619;
     font-size: 1.15em;
 }
 

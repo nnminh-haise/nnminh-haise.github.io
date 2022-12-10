@@ -1,5 +1,5 @@
 
-# C++ string - Chuỗi trong ngôn ngữ lập trình C++
+# Kiểu dữ liệu char, C-Style string và lớp string trong C++
 
 > Làm sao để biểu diễn một tập hợp gồm các kí tự trong bảng chữ cái?
 

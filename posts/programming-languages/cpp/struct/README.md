@@ -1,5 +1,5 @@
 
-# Cơ bản về struct trong C++ | C++ cơ bản
+# Cấu trúc dữ liệu trừu tượng struct trong C++
 
 ---
 
