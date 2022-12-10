@@ -105,7 +105,7 @@ h1 {
     text-align: left !important;
 }
 
-#post h2 {
+#post2 h2 {
     text-align: left !important;
 }
 
@@ -116,7 +116,7 @@ h1 {
     text-align: left !important;
 }
 
-#post h3 {
+#post3 h3 {
     text-align: left !important;
 }
 
