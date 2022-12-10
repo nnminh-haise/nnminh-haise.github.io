@@ -144,7 +144,7 @@
 
 | Đề bài | Lời giải |
 | :--- | :--- |
-| [Tìm k](./categories/searching/find-k/statement.md) | [Lời giải](./categories/searching/find-k/statement.md) |
+| [Tìm k](./categories/searching/find-k/statement.md) | [Lời giải](./categories/searching/find-k/editorial.md) |
 | [Số cần tìm](./categories/searching/find-target/statement.md) | [Lời giải](./categories/searching/find-target/editorial.md) |
 | [Cận dưới](./categories/searching/lower-bound/statement.md) | [Lời giải](./categories/searching/lower-bound/editorial.md) |
 | [Số còn thiếu](./categories/searching/missing-number/statement.md) | [Lời giải](./categories/searching/missing-number/editorial.md) |
@@ -190,11 +190,18 @@ h1 {
 }
 
 /* h2 {
-    color: #379237;
+    color: #4E944F;
     font-family: 'Charm', cursive;
     font-size: 2em;
     text-align: center;
 } */
+
+#platform1 h1 {
+    color: #4E944F;
+    font-family: 'Charm', cursive;
+    font-size: 2.5em;
+    text-align: center !important;
+}
 
 #platform2 h2 {
     color: #665A48;

@@ -2,7 +2,11 @@
 home: true
 ---
 
+<div id="platform1">
+
 # ✎ Minh học công nghệ thông tin ✎
+
+</div>
 
 > 💡 *Đây là những kiến thức mình tích góp được trong những năm đèn sách ở giảng đường. Tuy không phải người giỏi nhất cũng như có khả năng sư phạm quá xuất sắc nhưng đây là góc nhìn và tư duy của mình đối với những kiến thức mà mình được học. Đây sẽ không phải là tài liệu "CHUẨN" như sách giáo khoa nhưng mình đảm bảo kiến thức mình đưa ra sẽ được dựa trên sách và tài liệu tốt nhất có thể và mình sẽ luôn gửi kèm tài liệu nguồn và tài liệu tham khảo cho cậu đọc nha!*
 
@@ -40,7 +44,11 @@ home: true
 
 ---
 
+<div id="platform1">
+
 # ☁︎ Minh tâm sự ☀︎
+
+</div>
 
 > *Dưới đây là những suy nghĩ mà mình muốn kể cho cậu nghe. Mình mong rằng mình có thể đem lại một góc nhìn nào đó mới lạ và giá trị nào đó thông qua những suy nghĩ của mình.*
 
@@ -66,11 +74,18 @@ h1 {
 }
 
 /* h2 {
-    color: #379237;
+    color: #4E944F;
     font-family: 'Charm', cursive;
     font-size: 2em;
     text-align: center;
 } */
+
+#platform1 h1 {
+    color: #4E944F;
+    font-family: 'Charm', cursive;
+    font-size: 2.5em;
+    text-align: center !important;
+}
 
 #platform2 h2 {
     color: #665A48;

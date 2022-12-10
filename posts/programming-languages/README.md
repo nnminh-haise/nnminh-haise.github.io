@@ -50,12 +50,19 @@ h1 {
     text-align: center;
 }
 
-/* h2 {
-    color: #379237;
+h2 {
+    color: #4E944F;
     font-family: 'Charm', cursive;
     font-size: 2em;
     text-align: center;
-} */
+}
+
+#platform1 h1 {
+    color: #4E944F;
+    font-family: 'Charm', cursive;
+    font-size: 2.5em;
+    text-align: center !important;
+}
 
 #platform2 h2 {
     color: #665A48;
