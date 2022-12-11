@@ -43,8 +43,4 @@
     font-family: 'Roboto', sans-serif;
 }
 
-p {
-    text-align: justify;
-}
-
 </style>

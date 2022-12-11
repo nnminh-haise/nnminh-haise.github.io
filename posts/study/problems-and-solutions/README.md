@@ -189,9 +189,5 @@
     color: #4E944F;
 }
 
-p {
-    text-align: justify;
-}
-
 </style>
 
