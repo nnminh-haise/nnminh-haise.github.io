@@ -17,8 +17,12 @@ module.exports = {
             { text: 'Instagram', link: 'https://www.instagram.com/nnminh.haise/'},
             { text: 'Github', link: 'https://github.com/nnminh-haise'},
         ],
-        sidebar: 'auto',
+        sidebar: {
+            '/talks/': false,
+            '/': 'auto',
+        },
         displayAllHeaders: true,
+        lastUpdated: 'Cập nhật lần cuối',
     },
     markdown: {
         lineNumbers: true,

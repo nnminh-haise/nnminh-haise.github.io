@@ -2,136 +2,148 @@
 home: true
 ---
 
-<div id="custom">
+<div id="container">
 
-# ✎ Minh học công nghệ thông tin ✎
+<div id="section1">
 
-</div>
+<img src="./img/img01.jpeg">
 
-> 💡 *Đây là những kiến thức mình tích góp được trong những năm đèn sách ở giảng đường. Tuy không phải người giỏi nhất cũng như có khả năng sư phạm quá xuất sắc nhưng đây là góc nhìn và tư duy của mình đối với những kiến thức mà mình được học. Đây sẽ không phải là tài liệu "CHUẨN" như sách giáo khoa nhưng mình đảm bảo kiến thức mình đưa ra sẽ được dựa trên sách và tài liệu tốt nhất có thể và mình sẽ luôn gửi kèm tài liệu nguồn và tài liệu tham khảo cho cậu đọc nha!*
+<div id="item1">
 
-<div id="post2">
+# [🌱 Study with Minh](./posts/study/)
 
-## [🌱 Cấu trúc dữ liệu và giải thuật](./posts/data-strucutres-and-algorithms/)
-
-</div>
-
-*Tuy không đạt 100% về độ chính xác hay quá xuất sắc nhưng đây là kết tinh của sự chọn lọc của mình cùng với công sức dịch tài liệu của mình, hi vọng cậu sẽ đón nhận và góp ý xây dựng giúp tài liệu và trang blog của mình được hoàn thiện hơn.*
-
-<div id="post2">
-
-## [🌱 Bài tập và lời giải](./posts/problems-and-solutions/)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in ante et quam dictum pulvinar in non diam. Aliquam at lorem sit amet turpis ornare luctus. Nulla rutrum sagittis erat vitae pretium. Praesent consectetur vitae urna eu egestas. Nulla ullamcorper ornare nunc sed euismod. Aenean aliquam magna vel enim hendrerit sollicitudin. Sed tincidunt euismod venenatis. Maecenas a dictum magna. Nunc gravida dignissim libero vel accumsan.
 
 </div>
 
-*Đây là tập hợp những bài toán mình giải trong quá trình mình học lập trình, gồm những bài tập trên các trang web như Codeforces, CSES, Codechef và một số bài mình tự viết dựa trên nền bài mình đã làm.*
+</div>
 
-<div id="post2">
+<div id="section2">
 
-## [🌱 Tản mạn về ngôn ngữ lập trình](./posts/programming-languages/)
+<div id="item1">
+
+# [🌱 Minh's talks](./posts/talks/)
+
+Aliquam aliquam neque non dolor suscipit, non consequat velit gravida. Cras in cursus nulla. Aliquam consectetur nisi elementum felis pulvinar dignissim. Cras commodo dolor purus, ut consequat mi vulputate vel. Proin eu convallis neque. Aliquam ac elementum sapien. Nam hendrerit convallis tellus, a efficitur odio feugiat at. Mauris placerat erat a metus dictum, ac ultrices velit vestibulum.
+
 
 </div>
 
-*Nếu ví lập trình như câu cá thì ngôn ngữ lập trình chắc chắn là cái cần câu. Đúng vậy, ngôn ngữ lập trình là một công cụ không thể thiếu đối với mọi lập trình viên. Đây là những bài viết mang tính học thuật của mình hướng dẫn cậu về những kiến thức quan trọng của một số ngôn ngữ lập trình mà mình sử dụng.*
-
-<div id="post2">
-
-## [🌱 Tản mạn về toán học](./posts/math/)
+<img src="./img/img02.jpeg">
 
 </div>
 
-*Toán học là một lĩnh vực đóng vai trò cực kì quan trọng, không muốn nói là cốt lõi cho sự phát triển của con người. Từ những phép tính đơn giản như 1 + 1 = 2 đến những phương trình toán học phức tạp hay những hình khối với muôn hình vạn trạng. Mình không phải là người giỏi toán nhưng theo mình, khả năng của mình đủ để chia sẽ những kiến thức cơ bản của toán học. Hơn nữa, toán học cũng rất quan trọng trong lập trình, vậy sao không cùng học toán một cách thoải mái nhỉ?*
-
----
-
-<div id="custom">
-
-# ☁︎ Minh tâm sự ☀︎
-
 </div>
 
-> *Dưới đây là những suy nghĩ mà mình muốn kể cho cậu nghe. Mình mong rằng mình có thể đem lại một góc nhìn nào đó mới lạ và giá trị nào đó thông qua những suy nghĩ của mình.*
 
-*Hiện tại mình khá bận và chưa sắp xếp để viết bài. Hẹn cậu lần tới nha.*
 
----
+
+
+
 
 <!-- Page styling -->
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+.hero #main-title {
+    color: #379237 !important;
+    font-family: 'Roboto', sans-serif;
+}
 
 .hero .description {
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     color: #483838 !important;
+    font-size: 1.4em !important;
 }
 
-.hero h1 {
-    color: #379237;
-    font-family: 'Charm', cursive;
-    font-size: 2.5em;
-    text-align: center;
+
+
+#section1 img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
-#custom h1 {
-    color: #379237;
-    font-family: 'Charm', cursive;
-    font-size: 2.5em;
-    text-align: center;
+#section1 #item1 a {
+    color: #61481C;
+    font-style: italic;
 }
 
-#custom h2 {
-    color: #379237;
-    font-family: 'Charm', cursive;
-    font-size: 2em;
-    text-align: center;
+#section1 #item1 h1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.10em;
 }
 
-#platform1 h1 {
-    color: #4E944F;
-    font-family: 'Charm', cursive;
-    font-size: 2.5em;
-    text-align: center !important;
-}
-
-#platform2 h2 {
-    color: #665A48;
-    font-family: 'Charm', cursive;
-    font-size: 2em;
-    text-align: left !important;
-}
-
-#platform3 h3 {
-    color: #AA8B56;
-    font-family: 'Charm', cursive;
-    font-size: 1.7em;
-    text-align: left !important;
-}
-
-#post2 a {
-    color: #665A48;
-    font-family: 'Charm', cursive;
-    font-size: 1.7em;
-    text-align: left !important;
-}
-
-#post2 h2 {
-    text-align: left !important;
-}
-
-#post3 a {
-    color: #665A48;
-    font-family: 'Charm', cursive;
-    font-size: 1.3em;
-    text-align: left !important;
-}
-
-#post3 h3 {
-    text-align: left !important;
-}
-
-p {
+#section1 #item1 p {
+    text-align: justify;
     font-size: 1.15em;
+}
+
+#section1 #item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+#section1 {
+    border: 1px solid #2C3639;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+#section2 img {
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#section2 #item1 a {
+    color: #61481C;
+    font-style: italic;
+}
+
+#section2 #item1 h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #5F8D4E;
+    letter-spacing: 0.10em;
+}
+
+#section2 #item1 p {
+    text-align: justify;
+    font-size: 1.15em;
+}
+
+#section2 #item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+#section2 {
+    border: 1px solid #2C3639;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 </style>
