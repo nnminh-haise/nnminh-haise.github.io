@@ -131,9 +131,5 @@
     text-align: left !important;
 }
 
-p {
-    font-size: 1.15em;
-}
-
 </style>
 

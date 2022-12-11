@@ -109,7 +109,6 @@
 
 p {
     text-align: justify;
-    font-size: 1.15em;
 }
 
 </style>
