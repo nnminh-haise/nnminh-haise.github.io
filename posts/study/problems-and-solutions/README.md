@@ -183,17 +183,14 @@
 
 #problem-list a {
     color: #425F57;
-    font-size: 1.15em;
 }
 
 #problem-list table thead {
     color: #4E944F;
-    font-size: 1.15em;
 }
 
 p {
     text-align: justify;
-    font-size: 1.15em;
 }
 
 </style>
