@@ -65,9 +65,9 @@
 
 | Statement | Editorial |
 | :--- | :--- |
-| [Apartments](./sorting-and-searching/apartments/statement.md) | [Editorial](./sorting-and-searching/apartments/editorial.md) |
-| [Distinct Number](./sorting-and-searching/distict-number/statement.md) | [Editorial](./sorting-and-searching/distict-number/editorial.md) |
-| [Ferris Wheel](./sorting-and-searching/ferris-wheel/statement.md) | [Editorial](./sorting-and-searching/ferris-wheel/editorial.md) |
+| [Apartments](./cses/sorting-and-searching/apartments/statement.md) | [Editorial](./cses/sorting-and-searching/apartments/editorial.md) |
+| [Distinct Number](./cses/sorting-and-searching/distict-number/statement.md) | [Editorial](./cses/sorting-and-searching/distict-number/editorial.md) |
+| [Ferris Wheel](./cses/sorting-and-searching/ferris-wheel/statement.md) | [Editorial](./cses/sorting-and-searching/ferris-wheel/editorial.md) |
 
 <!-- END_OF_Sorting-and-Searching -->
 
