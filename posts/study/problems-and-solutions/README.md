@@ -51,7 +51,7 @@
 
 <div id="container">
 
-## CSES solutions
+## 🌱 CSES solutions
 
 > *Official page: [CSES | Problem set](https://cses.fi/problemset/list/).*
 
@@ -59,7 +59,7 @@
 
 <div id="sub-container">
 
-### Sorting and Searching
+### 🍀 Sorting and Searching
 
 <div id="problem-list">
 
@@ -79,7 +79,7 @@
 
 <div id="sub-container">
 
-### Dynamic Programming
+### 🍀 Dynamic Programming
 
 <div id="problem-list">
 
@@ -103,7 +103,7 @@
 
 <div id="sub-container">
 
-### 🍀 Đồng dư thức & Ước chung lớn nhất - Modulo & GCD
+### 🍀 Đồng dư thức & Ước chung lớn nhất
 
 <div id="problem-list">
 
@@ -124,7 +124,7 @@
 
 <div id="sub-container">
 
-### 🍀 Số nguyên tố - Prime number
+### 🍀 Số nguyên tố
 
 <div id="problem-list">
 
@@ -144,7 +144,7 @@
 
 <div id="sub-container">
 
-### 🍀 Đệ quy & Quay lui - Recursion & Backtracking
+### 🍀 Đệ quy & Quay lui
 
 <div id="problem-list">
 
@@ -161,7 +161,7 @@
 
 <div id="sub-container">
 
-### 🍀 Bài toán tìm kiếm - Searching
+### 🍀 Bài toán tìm kiếm
 
 <div id="problem-list">
 
@@ -180,7 +180,7 @@
 
 <div id="sub-container">
 
-### 🍀 Bài toán sắp xếp - Sorting
+### 🍀 Bài toán sắp xếp
 
 <div id="problem-list">
 
@@ -192,6 +192,47 @@
 | [Thống kê](./categories/sorting/thong-ke/statement.md) | [Lời giải](./categories/sorting/thong-ke/editorial.md) |
 
 <!-- END_OF_sorting -->
+
+</div>
+
+</div>
+
+<div id="sub-container">
+
+### 🍀 Bài tập về String
+
+<div id="problem-list">
+
+| Đề bài | Lời giải |
+| :--- | :--- |
+| [Chuỗi Anagram](./categories/string/anagram-string/statement.md) | [Lời giải](./categories/string/anagram-string/editorial.md) |
+| [Đếm chuỗi con](./categories/string/count-substring/statement.md) | [Lời giải](./categories/string/count-substring/editorial.md) |
+| [Đếm từ](./categories/string/count-words/statement.md) | [Lời giải](./categories/string/count-words/editorial.md) |
+| [Tìm khóa](./categories/string/find-key/statement.md) | [Lời giải](./categories/string/find-key/editorial.md) |
+| [Tiền tố chung dài nhất](./categories/string/longest-common-prefix/statement.md) | [Lời giải](./categories/string/longest-common-prefix/editorial.md) |
+| [Chuỗi đối xứng](./categories/string/palindrome-string/statement.md) | [Lời giải](./categories/string/palindrome-string/editorial.md) |
+| [Chuỗi đảo ngược](./categories/string/reverse-string/statement.md) | [Lời giải](./categories/string/reverse-string/editorial.md) |
+| [Cộng chuỗi](./categories/string/sum-string/statement.md) | [Lời giải](./categories/string/sum-string/editorial.md) |
+
+</div>
+
+</div>
+
+<div id="sub-container">
+
+### 🍀 Bài tập về function
+
+<div id="problem-list">
+
+| Đề bài | Lời giải |
+| :--- | :--- |
+| [Dãy tăng](./categories/function/increase-array/statement.md) | [Lời giải](./categories/function/increase-array/editorial.md) |
+| [Hàm lũy thừa](./categories/function/pow-function/statement.md) | [Lời giải](./categories/function/pow-function/editorial.md) |
+| [Hàm bình phương](./categories/function/sqr-function/statement.md) | [Lời giải](./categories/function/sqr-function/editorial.md) |
+| [So sánh chuỗi](./categories/function/string-compare/statement.md) | [Lời giải](./categories/function/string-compare/editorial.md) |
+| [Tổng 1](./categories/function/sum-1/statement.md) | [Lời giải](./categories/function/sum-1/editorial.md) |
+| [Tổng 2](./categories/function/sum-2/statement.md) | [Lời giải](./categories/function/sum-2/editorial.md) |
+| [Tổng 3](./categories/function/sum-3/statement.md) | [Lời giải](./categories/function/sum-3/editorial.md) |
 
 </div>
 

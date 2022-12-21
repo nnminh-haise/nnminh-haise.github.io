@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+
+#define FASTIO ios_base::sync_with_stdio(false); cin.tie(NULL);
+
+using namespace std;
+
+int main() {
+    FASTIO;
+    #ifndef ONLINE_JUDGE
+        freopen("data.txt", "r", stdin);
+    #endif
+
+    string s, p;
+    cin >> s >> p;
+    int ans = 0;
+    for (int i = 0; i < s.length() - p.length() + 1; ++i) {
+        if (s[i] == p[0]) {
+            bool flag = true;
+            for (int j = 0; j < p.length(); ++j) {
+                if (s[i + j] != p[j]) {
+                    flag = false;
+                }
+            }
+            ans += flag;
+        }
+    }
+
+    cout << ans << endl;
+    return 0;
+}
